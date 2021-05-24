@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+ 
+ /* return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +20,32 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  ); */
+
+
+return (
+  <div>
+    <h1>Create an Account to get started!</h1>
+    <h1>Let's have Fun!</h1>
+  <form>
+    <input type="text" placeholder = "First Name" name="first" />
+    <input type="text" placeholder = "Surname" name="Surname" />
+    <input type="email" placeholder="Email" name="email" />
+    <input type="text" placeholder="Information" name="Information" />
+  </form>
+
+  <footer>
+    A program by Scott West, Nikhita Paul, Jason Pham and Cameron Howling. 
+  </footer>
+
+
+
+  </div>
+
+
+    );
+
 }
+
 
 export default App;
