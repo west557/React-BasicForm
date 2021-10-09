@@ -28,16 +28,16 @@ return (
     <h1>Create an Account to get started!</h1>
     <h1>Let's have Fun!</h1>
   <form>
-    <input type="text" placeholder = "First Name" name="first" />
-    <input type="text" placeholder = "Surname" name="Surname" />
-    <input type="email" placeholder="Email" name="email" />
-    <input type="text" placeholder="Information" name="Information" />
+    <input type="text" placeholder = "First Name" name="first" /> <br></br>
+    <input type="text" placeholder = "Surname" name="Surname" /> <br></br>
+    <input type="email" placeholder="Email" name="email" /> <br></br>
+    <input type="text" placeholder="Information" name="Information" /> <br></br>
+    <button>Welcome!</button>
   </form>
 
   <footer>
-    A program by Scott West, Nikhita Paul, Jason Pham and Cameron Howling. 
+    This is the best program of all time. 
   </footer>
-
 
 
   </div>

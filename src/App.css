@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Cardo', sans-serif; /*-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Cardo", sans-serif; /*-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
   -webkit-font-smoothing: antialiased;
@@ -13,7 +13,6 @@ body {
   font-size: large;
   height: 300px;
   padding: 1.9%;
-
 }
 
 .App {
@@ -29,6 +28,50 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.button {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+form {
+  background-color: beige;
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid rgb(0, 255, 234);
+  border-radius: 4px;
 }
 
 .App-header {
